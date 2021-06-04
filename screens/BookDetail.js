@@ -307,10 +307,10 @@ const BookDetail = ({ route, navigation }) => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          onPress={() => console.log("Start Reading")}
+          onPress={() => console.log("Start Watching")}
         >
           <Text style={{ ...FONTS.h3, color: COLORS.white }}>
-            Start Reading
+            Start Watching
           </Text>
         </TouchableOpacity>
       </View>
